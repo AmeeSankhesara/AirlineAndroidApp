@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Airline Android App</string>
+    <string name="AddFlight">Add \n Flight</string>
+    <string name="SearchFlight">Search \n Flight</string>
+    <string name="print">Print</string>
+    <string name="help">Help</string>
+    <string name="readme">
+         <![CDATA[
+        <h2>This is airline mobile application and it contains below functionality.</h2>
+        <ol><font size="4">
+            <li>You can add flight and airline by clicking on button add flights. Below is input field constraints.
+                <ul style="list-style-type:disc;">
+                    <li><b> Airline Name</b> - Should not be empty</li>
+                    <li><b> Flight Number</b> - Should be digits only</li>
+                    <li><b> Source</b> - It should be 3 character only</li>
+                    <li><b> Destination</b> - It should be 3 character only</li>
+                    <li><b> Departure</b> - It should be in MM/dd/yyyy hh:mm am/pm</li>
+                    <li><b> Arrival</b> - It should be in MM/dd/yyyy hh:mm am/pm</li>
+                </ul>
+            </li>
+            <br>
+            <li>Search flight button contains below functionality.
+                <ul style="list-style-type:disc;">
+                    <li>Input field <b> Airline Name</b> - Should not be empty</li>
+                    <li>Input field <b> Source</b> - It should be 3 character only(Optional field)</li>
+                    <li>Input field <b> Destination</b> - It should be 3 character only(Optional field)</li>
+                    <li> By clicking on pretty print button you can get flights in pretty format. </li>
+                    <li> By clicking on search flights button you can get flights in raw format. </li>
+                    <li> By providing only airline name you can get all flights of specific airline. </li>
+                    <li> By providing source and destination you can get all flights of specific airline from given source to destination. </li>
+                    <li> By providing only airline name and source you can get all flights of given airline which depart from given source. </li>
+                    <li> By providing only airline name and destination you can get all flights of given airline which arrive at given destination. </li>
+                </ul>
+            </li>
+            </font>
+        </ol>
+        ]]>
+    </string>
+</resources>
